@@ -274,6 +274,10 @@
                                    Grid.Column="1"
                                    HorizontalAlignment="Center"
                                    VerticalAlignment="Center"
+                                   IsChecked="True" 
+                                   UncheckedBackground="Red"
+                                   IsCheckedLeft="True" 
+                                    Width="120" ThumbWidthRatio=".9"
                                    Style="{StaticResource {ComponentResourceKey TypeInTargetAssembly=wpfspark:ToggleSwitch, ResourceId=ToggleSwitch.Basic.Style}}" />
         </Grid>
         <Grid x:Name="FluidWrapPanelGrid"
